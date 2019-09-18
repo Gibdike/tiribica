@@ -5,16 +5,13 @@ using UnityEngine.UI;
 
 public class Paralax : MonoBehaviour
 {
+    //Declarando imagem
     public RawImage paralax;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
+   
     // Update is called once per frame
     void Update()
     {
+        //Controle de movimentacao de Paralax
         paralax.uvRect = new Rect(paralax.uvRect.x + 0.001f, paralax.uvRect.y, paralax.uvRect.width, paralax.uvRect.height);
     }
 }

@@ -53,8 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Mecanicas\TiroBehaviour.cs" />
      <Compile Include="Assets\Scripts\Player\Pernas.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerBehaviour.cs" />
+     <Compile Include="Assets\Scripts\UI\CameraBehaviour.cs" />
      <Compile Include="Assets\Scripts\UI\Paralax.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Felipe/UnityProjects/tibirica/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
