@@ -13,7 +13,7 @@ public class PlayerBehaviour : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+    
     }
 
     // Update is called once per frame
@@ -38,11 +38,6 @@ public class PlayerBehaviour : MonoBehaviour
             GetComponent<Animator>().SetBool("Jumping", true);
         }
     }
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        if(other.gameObject.CompareTag("Chao")){
-            GetComponent<Animator>().SetBool("Jumping", false);
-            podePular = true;
-        }       
-    }
+    
+    
 }
