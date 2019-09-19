@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Chao
   - Parede
+  - peso
+  - botao
   layers:
   - Default
   - TransparentFX

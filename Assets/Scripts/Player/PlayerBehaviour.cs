@@ -33,7 +33,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
 
         //Movimentacao Direita/Esquerda do player
-        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * (velocidade * Time.deltaTime) ,rb.velocity.y);
+        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * velocidade ,rb.velocity.y);
 
         //Movimentaçao de pulo
         if(Input.GetKeyDown(KeyCode.W) && podePular)
@@ -80,6 +80,12 @@ public class PlayerBehaviour : MonoBehaviour
         }else{
             //Desativando o alcance
             tiro.SetActive(false);
+        }
+        if(Input.GetKeyDown(KeyCode.UpArrow)){
+            tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia + 0.1f;
+        }
+        if(Input.GetKeyDown(KeyCode.DownArrow)){
+            tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia - 0.1f;
         }
     }
     
