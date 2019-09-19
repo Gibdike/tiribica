@@ -11,6 +11,6 @@ public class CameraBehaviour : MonoBehaviour
     void Update()
     {
         //Enquadrando camera
-        transform.position = new Vector3(player.position.x, player.position.y, -10);
+        transform.position = new Vector3(player.position.x, player.position.y + 2, -10);
     }
 }

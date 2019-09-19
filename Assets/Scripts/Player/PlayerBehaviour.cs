@@ -22,6 +22,7 @@ public class PlayerBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         //pegando o RigidBody do player
         rb = GetComponent<Rigidbody2D>();
         
@@ -30,8 +31,9 @@ public class PlayerBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //Movimentacao Direita/Esquerda do player
-        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * velocidade,rb.velocity.y);
+        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * (velocidade * Time.deltaTime) ,rb.velocity.y);
 
         //Movimentaçao de pulo
         if(Input.GetKeyDown(KeyCode.W) && podePular)

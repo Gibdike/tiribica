@@ -8,7 +8,7 @@ public class Pernas : MonoBehaviour
     public GameObject player;
    
     //Se o pe estiver tocando algo
-    private void OnCollisionEnter2D(Collision2D other){
+    private void OnTriggerEnter2D(Collider2D other){
 
         //Verificando se o pe esta encostado no chao
         if(other.gameObject.CompareTag("Chao")){
