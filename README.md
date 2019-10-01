@@ -98,3 +98,10 @@ Um tipo de Ressonancia é a Ressonancia Acustica ou Sonora.
 
 #### Design
 #### Programação
+
+
+
+
+
+
+Os princípios desta nova técnica foram estabelecidos há quase 60 anos por F. Bloch e E.M.Purcell ao estudar o comportamento de núcleos atômicos colocados num campo magnético. Descobriram que os núcleos absorviam a energia de ondas de rádio de frequências específicas e, após um determinado tempo, emitiam sinais que eram registrados num espectro característico. Uma análise deste espectro informava sobre o movimento e composição das moléculas estudadas.

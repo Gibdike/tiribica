@@ -13,7 +13,7 @@ public class TiroBehaviour : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
          //Mecanica de tiro (Em Andamento)
          
-         if(other.gameObject.CompareTag("peso")){
+        if(other.gameObject.CompareTag("peso")){
             if(player.rotation.y != 0){
                 if(other.gameObject.GetComponent<PenduloBehaviour>().frequencia == frequencia){
                     other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-forca, 0));
@@ -23,6 +23,11 @@ public class TiroBehaviour : MonoBehaviour
                     other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(forca, 0));
                 }
             }
-         }
+        }
+        if(other.gameObject.CompareTag("Vidro")){
+            if(other.gameObject.GetComponent<VidroBehaviour>().frequencia == frequencia){
+                other.gameObject.GetComponent<VidroBehaviour>().DestroyIsso();
+            }
+        }
     }
 }
