@@ -10,6 +10,7 @@ TagManager:
   - botao
   - Vidro
   - Bunker
+  - Caixa
   layers:
   - Default
   - TransparentFX
