@@ -24,11 +24,33 @@
 | Design  | Claudio Gabriel, Vitoria Angel, Kalvin Fabricio  |
 | Estrutura do jogo  |  Gabriel Lorhan, João Victor Freitas, Luiz Felipe |
 
-O trabalho consiste em um jogo plataforma em que o personagem principal (O **Astronauta**) tem que chegar ao final da fase com diversos obstacúlos.
- 
-Para que ele consiga tal proeza ele tem que usar de seus conhecimentos sobre   Ressonancia e sua principal ferramenta (Arma de Ressonancia) para conseguir passar pelos obstaculos e assim ganhar o Game.
+Tiribiça é um jogo 2D que trata sobre ressonância e
+suas formas na natureza por meio de puzzles e conteúdos
+informativos.
 
-A cada obstaculo que nosso personagem terá que passar é constituido por algum problema de Ressonancia diferente, ou seja, cada obstaculo envolve um conhecimento sobre a Ressonancia diferente e o personagem deve conhecer tais conhecimentos para o êxito da fase.
+Em Tiribiça você é um astronauta que perdeu a chave
+da cabine do banheiro e está desesperado para não acabar
+fazem o número um ou dois no seu ultimo traje limpo.
+Ironicamente a nave começa a dar defeito e as coisas
+saem do controle. Entre dor e angustias, acaba por lembrar
+que a chave está no seu dormitório bem distante. Ele
+devera passar por todos os desafios causados pelo
+problema nas portas e paredes da nave usando suas
+armas de ressonância pouco pratica e causando uns
+prejuízos para a NASA.
+
+#### Mecânicas do personagem:
+
+- O astronauta pode se mover para os lados, pular e
+usar suas armas.
+- Uso da arma de frequência mecânica ‘AFMe’ que
+pode quebrar ou empurrar blocos no seu caminho.
+Gerando pulsos leves na frequência certa ou apenas um
+com força de impacto.
+- Uso da arma de frequência magnética ‘AFMa’ que
+pode acender luzes, mostrar blocos invisíveis e confundir
+os dados de segurança de uma porta. Tudo isso usando
+um forte campo de polarização e dispersão de elétrons.
 
 ## A Ressonância
 ***Afinal de contas, o que é Ressonância?***
@@ -99,9 +121,5 @@ Um tipo de Ressonancia é a Ressonancia Acustica ou Sonora.
 #### Design
 #### Programação
 
-
-
-
-
-
-Os princípios desta nova técnica foram estabelecidos há quase 60 anos por F. Bloch e E.M.Purcell ao estudar o comportamento de núcleos atômicos colocados num campo magnético. Descobriram que os núcleos absorviam a energia de ondas de rádio de frequências específicas e, após um determinado tempo, emitiam sinais que eram registrados num espectro característico. Uma análise deste espectro informava sobre o movimento e composição das moléculas estudadas.
+>cOMENTARIOS: 
+>Os princípios desta nova técnica foram estabelecidos há quase 60 anos por F. Bloch e E.M.Purcell ao estudar o comportamento de núcleos atômicos colocados num campo magnético. Descobriram que os núcleos absorviam a energia de ondas de rádio de frequências específicas e, após um determinado tempo, emitiam sinais que eram registrados num espectro característico. Uma análise deste espectro informava sobre o movimento e composição das moléculas estudadas.
