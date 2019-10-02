@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerBehaviour : MonoBehaviour
 {
 
+    public float vidas;
+
     //Velocidade de movimentaçao Horizontal do personagem
     public float velocidade;
 

@@ -9,6 +9,7 @@ TagManager:
   - peso
   - botao
   - Vidro
+  - Bunker
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TextFrequencia : MonoBehaviour
 {
+    public PlayerBehaviour player;
     public TiroBehaviour tiro;
     public PenduloBehaviour pendulo;
     public Text textFreq;
@@ -17,6 +18,6 @@ public class TextFrequencia : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textFreq.text = ("Tiro freq: "+tiro.frequencia.ToString()+" Pendulo freq: "+pendulo.frequencia.ToString());
+        textFreq.text = ("Vidas: "+((int)player.vidas).ToString());
     }
 }
