@@ -30,13 +30,13 @@ informativos.
 
 Em Tiribiça você é um astronauta que perdeu a chave
 da cabine do banheiro e está desesperado para não acabar
-fazem o número um ou dois no seu ultimo traje limpo.
-Ironicamente a nave começa a dar defeito e as coisas
+fazendo o número um ou dois no seu ultimo traje limpo.
+Ironicamente, a nave começa a apresentar defeitos e as coisas
 saem do controle. Entre dor e angustias, acaba por lembrar
 que a chave está no seu dormitório bem distante. Ele
-devera passar por todos os desafios causados pelo
-problema nas portas e paredes da nave usando suas
-armas de ressonância pouco pratica e causando uns
+deverá passar por todos os desafios causados pelo
+problema nas portas e paredes da nave, usando suas
+armas de ressonância pouco praticas e causando uns
 prejuízos para a NASA.
 
 #### Mecânicas do personagem:
