@@ -29,5 +29,17 @@ public class TiroBehaviour : MonoBehaviour
                 other.gameObject.GetComponent<VidroBehaviour>().DestroyIsso();
             }
         }
+        if(other.gameObject.CompareTag("Caixa")){
+            if(player.rotation.y != 0){
+                other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-forca, 0);
+            }else{
+                other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(forca, 0);
+            }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other){
+        if(other.gameObject.CompareTag("Caixa")){
+            other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        }
     }
 }

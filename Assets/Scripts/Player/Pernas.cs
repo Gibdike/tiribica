@@ -11,7 +11,7 @@ public class Pernas : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other){
 
         //Verificando se o pe esta encostado no chao
-        if(other.gameObject.CompareTag("Chao") || other.gameObject.CompareTag("peso") ){
+        if(other.gameObject.CompareTag("Chao") || other.gameObject.CompareTag("peso") || other.gameObject.CompareTag("Caixa")){
 
             //Atualizando a variavel de controle de Animaçao
             player.GetComponent<Animator>().SetBool("Jumping", false);
