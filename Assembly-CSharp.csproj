@@ -2,6 +2,8 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
+    <CscToolPath>C:\Program Files\Unity\Hub\Editor\2019.2.3f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -58,43 +60,44 @@
      <Compile Include="Assets\Scripts\Mecanicas\PenduloBehaviour.cs" />
      <Compile Include="Assets\Scripts\Mecanicas\TiroBehaviour.cs" />
      <Compile Include="Assets\Scripts\Mecanicas\VidroBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Player\Morte.cs" />
      <Compile Include="Assets\Scripts\Player\Pernas.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerBehaviour.cs" />
      <Compile Include="Assets\Scripts\UI\CameraBehaviour.cs" />
      <Compile Include="Assets\Scripts\UI\Paralax.cs" />
      <Compile Include="Assets\Scripts\UI\TextFrequencia.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Felipe/UnityProjects/tibirica/tibirica/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Lorhan/Documents/GitHub/tibirica/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
