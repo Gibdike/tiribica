@@ -84,10 +84,10 @@ public class PlayerBehaviour : MonoBehaviour
             tiro.SetActive(false);
         }
         if(Input.GetKeyDown(KeyCode.UpArrow)){
-            tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia + 0.1f;
+            tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia + 1;
         }
         if(Input.GetKeyDown(KeyCode.DownArrow)){
-            tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia - 0.1f;
+            tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia - 1;
         }
     }
     

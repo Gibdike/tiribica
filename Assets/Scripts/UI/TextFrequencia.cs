@@ -18,6 +18,6 @@ public class TextFrequencia : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textFreq.text = ("Vidas: "+((int)player.vidas).ToString());
+        textFreq.text = (tiro.frequencia.ToString() + "Hz");
     }
 }
