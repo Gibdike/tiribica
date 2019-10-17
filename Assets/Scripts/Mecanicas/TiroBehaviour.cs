@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TiroBehaviour : MonoBehaviour
 {
-    public float forca;
+    public float forcaImpulso;
 
     public float frequencia;
 
@@ -16,11 +16,11 @@ public class TiroBehaviour : MonoBehaviour
         if(other.gameObject.CompareTag("peso")){
             if(player.rotation.y != 0){
                 if(other.gameObject.GetComponent<PenduloBehaviour>().frequencia == frequencia){
-                    other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-forca, 0));
+                    other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-forcaImpulso, 0));
                 }
             }else{
                 if(other.gameObject.GetComponent<PenduloBehaviour>().frequencia == frequencia){
-                    other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(forca, 0));
+                    other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(forcaImpulso, 0));
                 }
             }
         }
@@ -31,9 +31,9 @@ public class TiroBehaviour : MonoBehaviour
         }
         if(other.gameObject.CompareTag("Caixa")){
             if(player.rotation.y != 0){
-                other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-forca, 0);
+                other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-forcaImpulso, 0);
             }else{
-                other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(forca, 0);
+                other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(forcaImpulso, 0);
             }
         }
     }

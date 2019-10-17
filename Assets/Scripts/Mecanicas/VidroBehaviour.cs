@@ -6,9 +6,8 @@ public class VidroBehaviour : MonoBehaviour
 {
     public float frequencia;
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    public void FixedStart(){
+        GetComponentInChildren<Animator>().SetBool("quebrando", false);
     }
 
     // Update is called once per frame
@@ -17,6 +16,8 @@ public class VidroBehaviour : MonoBehaviour
         
     }
     public void DestroyIsso(){
-        Destroy(gameObject);
+        GetComponentInChildren<Animator>().SetBool("quebrando", true);
+        Destroy(gameObject, 1);
+        
     }
 }

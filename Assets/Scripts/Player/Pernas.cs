@@ -6,6 +6,7 @@ public class Pernas : MonoBehaviour
 {
     //O player que esse script deve alterar
     public GameObject player;
+    public TiroBehaviour tiro;
    
     //Se o pe estiver tocando algo
     private void OnTriggerEnter2D(Collider2D other){
@@ -19,5 +20,18 @@ public class Pernas : MonoBehaviour
             //Atualizando a variavel de controle de Salto
             player.GetComponent<PlayerBehaviour>().podePular = true;
         }
+        
+        }
+    private void OnTriggerStay2D(Collider2D other) {
+         if(other.gameObject.CompareTag("peso")){
+            if(Input.GetKey(KeyCode.Space)){
+                if(player.transform.rotation.y != 0){
+                    other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(tiro.forcaImpulso, 0));
+                }else{
+                    other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-tiro.forcaImpulso, 0));    
+                }
+            }
+        }
     }
 }
+
