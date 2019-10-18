@@ -53,9 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Mecanicas\BotaoBehaviour.cs" />
      <Compile Include="Assets\Scripts\Mecanicas\BotaoBehaviour1.cs" />
      <Compile Include="Assets\Scripts\Mecanicas\Bunker.cs" />
-     <Compile Include="Assets\Scripts\Mecanicas\InstaMorte.cs" />
      <Compile Include="Assets\Scripts\Mecanicas\PenduloBehaviour.cs" />
      <Compile Include="Assets\Scripts\Mecanicas\TiroBehaviour.cs" />
      <Compile Include="Assets\Scripts\Mecanicas\VidroBehaviour.cs" />

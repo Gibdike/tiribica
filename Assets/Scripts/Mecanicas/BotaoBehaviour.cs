@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BotaoBehaviour1 : MonoBehaviour
+public class BotaoBehaviour : MonoBehaviour
 {
-    public Animator porta;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +15,4 @@ public class BotaoBehaviour1 : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D other) {
-        porta.SetBool("Aberta", true);
-    }
-
 }

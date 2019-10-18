@@ -1,19 +1,7 @@
 fileFormatVersion: 2
 guid: 809474fa56b90cb428a42e69a5ec304b
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8205998330942029321
-    second: "Porta de Vidro Anima\xE7\xE3o_0"
-  - first:
-      213: -2831813303954029718
-    second: "Porta de Vidro Anima\xE7\xE3o_1"
-  - first:
-      213: 567271477477336976
-    second: "Porta de Vidro Anima\xE7\xE3o_2"
-  - first:
-      213: -3936566048246138563
-    second: "Porta de Vidro Anima\xE7\xE3o_3"
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -52,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -82,117 +70,9 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: "Porta de Vidro Anima\xE7\xE3o_0"
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 352
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c839ab5253c5af94587e0446bd7b9457
-      internalID: -8205998330942029321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Porta de Vidro Anima\xE7\xE3o_1"
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 352
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 212398eacbc252243a02d498a19aa5d6
-      internalID: -2831813303954029718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Porta de Vidro Anima\xE7\xE3o_2"
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 352
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73661e43b1c46134db737e106d35497c
-      internalID: 567271477477336976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Porta de Vidro Anima\xE7\xE3o_3"
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 0
-        width: 352
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33d2cfe136ab6ad41b25169ea4bbe939
-      internalID: -3936566048246138563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -205,7 +85,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
