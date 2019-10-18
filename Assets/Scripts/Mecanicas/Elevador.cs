@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BotaoBehaviour1 : MonoBehaviour
+public class Elevador : MonoBehaviour
 {
-    public Animator porta;
-    public Animator senha;
+    public GameObject elevador2;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,12 +14,11 @@ public class BotaoBehaviour1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    private void OnTriggerEnter2D(Collider2D other) {
-        porta.SetBool("Aberto", true);
-        senha.SetBool("aberto", true);
-        GetComponent<Animator>().SetBool("Pressionado", true);
     }
 
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(GetComponent<Animator>().GetBool("Aberto")){
+            other.gameObject.transform.position = elevador2.transform.position;
+        }
+    }
 }
