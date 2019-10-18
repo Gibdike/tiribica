@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Aberta
+  m_Name: parada
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -4366126207437365743, guid: 2b46af911d0692540a00ef954d1eb7c5,
+      value: {fileID: -8205998330942029321, guid: 809474fa56b90cb428a42e69a5ec304b,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,7 +41,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -4366126207437365743, guid: 2b46af911d0692540a00ef954d1eb7c5, type: 3}
+    - {fileID: -8205998330942029321, guid: 809474fa56b90cb428a42e69a5ec304b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
