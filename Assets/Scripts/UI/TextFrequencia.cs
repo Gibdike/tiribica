@@ -11,6 +11,10 @@ public class TextFrequencia : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textFreq.text = (tiro.frequencia.ToString() + "Hz");
+        if(tiro.tipo == "Frequencia"){
+            textFreq.text = (tiro.frequencia.ToString() + "Hz");
+        }else{
+            textFreq.text = ((tiro.forcaImpulso / 100).ToString() +"N");
+        }
     }
 }

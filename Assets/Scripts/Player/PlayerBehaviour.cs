@@ -24,7 +24,8 @@ public class PlayerBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        tiro.GetComponent<TiroBehaviour>().tipo = "Frequencia";
+        GetComponent<Animator>().SetInteger("TipoArma", 0);
         //pegando o RigidBody do player
         rb = GetComponent<Rigidbody2D>();
         
@@ -84,10 +85,28 @@ public class PlayerBehaviour : MonoBehaviour
             tiro.SetActive(false);
         }
         if(Input.GetKeyDown(KeyCode.UpArrow)){
-            tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia + 1;
+            if(tiro.GetComponent<TiroBehaviour>().tipo == "Frequencia"){
+                tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia + 1;
+            }else{
+                tiro.GetComponent<TiroBehaviour>().forcaImpulso = tiro.GetComponent<TiroBehaviour>().forcaImpulso + 100;
+            }
         }
         if(Input.GetKeyDown(KeyCode.DownArrow)){
-            tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia - 1;
+            if(tiro.GetComponent<TiroBehaviour>().tipo == "Frequencia"){
+                tiro.GetComponent<TiroBehaviour>().frequencia = tiro.GetComponent<TiroBehaviour>().frequencia - 1;
+            }else{
+                tiro.GetComponent<TiroBehaviour>().forcaImpulso = tiro.GetComponent<TiroBehaviour>().forcaImpulso - 100;
+            }
+        }
+
+        if(Input.GetKeyDown(KeyCode.Alpha1)){
+            tiro.GetComponent<TiroBehaviour>().tipo = "Frequencia";
+            GetComponent<Animator>().SetInteger("TipoArma", 0);
+        }
+        
+        if(Input.GetKeyDown(KeyCode.Alpha2)){
+            tiro.GetComponent<TiroBehaviour>().tipo = "Impulso";
+            GetComponent<Animator>().SetInteger("TipoArma", 1);
         }
     }
     

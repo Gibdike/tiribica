@@ -23,7 +23,7 @@ public class Pernas : MonoBehaviour
         
         }
     private void OnTriggerStay2D(Collider2D other) {
-         if(other.gameObject.CompareTag("peso")){
+         if(other.gameObject.CompareTag("peso") && tiro.tipo == "Impulso"){
             if(Input.GetKey(KeyCode.Space)){
                 if(player.transform.rotation.y != 0){
                     other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(tiro.forcaImpulso, 0));
